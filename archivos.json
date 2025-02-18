@@ -1,0 +1,43 @@
+{
+    "noticias": [
+      {
+        "titulo": "Los beneficios del entrenamiento funcional",
+        "descripcion": "El entrenamiento funcional gana popularidad gracias a su capacidad para mejorar la fuerza y la movilidad en la vida diaria.",
+        "fecha": "2025-02-17",
+        "fuente": "Revista Fitness Pro"
+      },
+      {
+        "titulo": "Las dietas ricas en proteínas ayudan a la recuperación muscular",
+        "descripcion": "Un nuevo estudio demuestra que el consumo de proteínas después del entrenamiento acelera la recuperación y el crecimiento muscular.",
+        "fecha": "2025-02-16",
+        "fuente": "Nutrición Deportiva Hoy"
+      },
+      {
+        "titulo": "El impacto del HIIT en la quema de grasa",
+        "descripcion": "Investigaciones recientes confirman que el entrenamiento de alta intensidad es más efectivo que el cardio tradicional para la pérdida de grasa.",
+        "fecha": "2025-02-15",
+        "fuente": "Salud y Bienestar"
+      },
+      {
+        "titulo": "Yoga y su efecto en la reducción del estrés",
+        "descripcion": "Estudios sugieren que practicar yoga regularmente reduce el cortisol y mejora la salud mental.",
+        "fecha": "2025-02-14",
+        "fuente": "Yoga Life Magazine"
+      },
+      {
+        "titulo": "Tendencias en suplementación deportiva para este año",
+        "descripcion": "Expertos revelan cuáles serán los suplementos más demandados en el 2025 para mejorar el rendimiento deportivo.",
+        "fecha": "2025-02-13",
+        "fuente": "Deporte y Ciencia"
+      },
+
+      {
+        "titulo": "El entrenamiento en ayunas podría mejorar la quema de grasa",
+        "descripcion": "Un estudio publicado en The Journal of Physiology sugiere que entrenar en ayunas puede mejorar la capacidad del cuerpo para utilizar la grasa como fuente de energía. Los investigadores encontraron que las personas que hacen ejercicio antes de desayunar tienen una mayor sensibilidad a la insulina y un mejor control del azúcar en la sangre.",
+        "fecha": "2025-02-17",
+        "fuente": "The Journal of Physiology"
+      }
+    
+    ]
+  }
+  

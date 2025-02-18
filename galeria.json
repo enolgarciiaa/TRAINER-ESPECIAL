@@ -1,0 +1,54 @@
+{
+    "imagenes": [
+      {
+        "url": "../assets/imagen1.jpg",
+        "titulo": "Rutinas en casa"
+      },
+      {
+        "url": "../assets/imagen2.jpg",
+        "titulo": "Cardio al aire libre"
+      },
+      {
+        "url": "../assets/imagen3.jpg",
+        "titulo": "Entrenamiento de fuerza"
+      },
+      {
+        "url": "../assets/imagen4.jpg",
+        "titulo": "Entrenamiento en grupo"
+      },
+      {
+        "url": "../assets/imagen5.jpg",
+        "titulo": "Entrenamiento espalda"
+      },
+      {
+        "url": "../assets/imagen6.jpg",
+        "titulo": "Entrenamiento en pareja"
+      },
+      {
+        "url": "../assets/imagen7.jpg",
+        "titulo": "Yoga y relajación"
+      },
+      {
+        "url": "../assets/imagen8.jpg",
+        "titulo": "Entrenamiento en gym"
+      },
+      {
+        "url": "../assets/imagen9.jpg",
+        "titulo": "Entrenamiento de agilidad"
+      },
+      {
+        "url": "../assets/imagen10.jpg",
+        "titulo": "Entrenamiento de recuperacion"
+      },
+      {
+        "url": "../assets/imagen11.jpg",
+        "titulo": "Pesas"
+      },
+      {
+        "url": "../assets/imagen12.jpg",
+        "titulo": "Mancuernas"
+      }
+    ]
+    
+  }
+  

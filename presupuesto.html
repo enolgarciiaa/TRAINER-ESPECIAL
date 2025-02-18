@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>TRAINER ESPECIAL</title>
+</head>
+<body>
+     <nav id="navbar">
+        <img class="logo" src="../assets/Captura_de_pantalla_2025-02-17_125057-removebg-preview.png" alt="LOGO TRAINER ESPECIAL">
+        <ul class="menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="galeria.html">GALERÍA</a></li>
+            <li><a href="presupuesto.html">PRESUPUESTO</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    
+    
+    <main>
+        <form action="#" method="post" class="formulario" target="_blank" onsubmit="return validarFormulario()">
+            <h2>Presupuesto</h2>
+            
+            <!-- Datos de contacto -->
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu Nombre.." required>
+        
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus Apellidos.." required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu Teléfono.." required>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Escribe tu Email.." required>
+            </fieldset>
+            
+            <!-- Selección de opciones para el presupuesto -->
+            <fieldset>
+                <legend>Opciones de presupuesto</legend>
+                <label>Elige un producto:</label>
+                <select id="producto" title="Elige un producto" onchange="calcularPresupuesto()">
+                    <option value="100">Entrenamiento desde casa(Aplicacion) - 100€</option>
+                    <option value="200">Dieta Personalizada - 200€</option>
+                    <option value="300">Entrenador personal - 300€</option>
+                </select>
+        
+                <label for="plazo">Tiempo de Subscripcion:</label>
+                <input type="number" id="plazo" min="1" max="12" value="1" onchange="calcularPresupuesto()">
+                
+                <label for="extra">Extras:</label>
+                <input type="checkbox" name="extra" id="extra" value="50" onchange="calcularPresupuesto()" ><p> Camiseta TRAINER ESPECIAL(+50€)</p>
+                <input type="checkbox" name="extra" id="extra" value="100" onchange="calcularPresupuesto()" > <p>Complementos TRAINER ESPECIAL + Camiseta (+100€)</p>
+            </fieldset>
+            
+            <!-- Presupuesto final -->
+            <fieldset>
+                <legend>Presupuesto Final</legend>
+                <p id="presupuesto">Total: 0€</p>
+            </fieldset>
+            
+            <!-- Condiciones y envío -->
+            <fieldset>
+                <label for="condiciones">Acepto las condiciones de privacidad</label>
+                <input type="checkbox" id="condiciones" required> 
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+            </fieldset>
+        </form>
+        
+    </main>
+      
+    
+    <footer>
+        <p>© 2025 TRAINER ESPECIAL. Todos los derechos reservados. |  
+            <a href="avisolegal.html">Aviso Legal</a> |  
+            <a href="politica-privacidad.html">Política de Privacidad</a> |  
+            <a href="terminos_condiciones.html">Términos y Condiciones</a>
+        </p>
+
+        <p>Calle Pelayo 19, 33402</p>
+        
+        <div>
+            <img src="../assets/png-clipart-facebook-logo-computer-icons-social-media-facebook-youtube-social-network-social-media-logo-internet-thumbnail-removebg-preview.png" alt=" logo facebook">
+            <img src="../assets/87390-removebg-preview.png" alt=" logo instagram">
+            <img src="../assets/2ba717ac010d3b9f8d26e9db4da291b8-removebg-preview.png" alt=" logo X ">
+        </div>
+    </footer>
+
+    <script src="../JS/scroll.js"></script>
+    <script src="./JS/formulario.js"></script>
+</body>
+</html>
