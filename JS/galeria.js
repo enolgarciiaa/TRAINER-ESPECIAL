@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("./galeria.json")
+    fetch("galeria.json")
         .then(response => response.json())
         .then(data => {
             let galeria = document.getElementById("galeria");
