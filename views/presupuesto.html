@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>TRAINER ESPECIAL</title>
 </head>
 <body>
      <nav id="navbar">
-        <img class="logo" src="assets/Captura_de_pantalla_2025-02-17_125057-removebg-preview.png" alt="LOGO TRAINER ESPECIAL">
+        <img class="logo" src="/assets/Captura_de_pantalla_2025-02-17_125057-removebg-preview.png" alt="LOGO TRAINER ESPECIAL">
         <ul class="menu">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="galeria.html">GALERÍA</a></li>
-            <li><a href="presupuesto.html">PRESUPUESTO</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="/index.html">INICIO</a></li>
+            <li><a href="/views/galeria.html">GALERÍA</a></li>
+            <li><a href="/views/presupuesto.html">PRESUPUESTO</a></li>
+            <li><a href="/views/contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
     
@@ -43,6 +43,7 @@
                 <legend>Opciones de presupuesto</legend>
                 <label>Elige un producto:</label>
                 <select id="producto" title="Elige un producto" onchange="calcularPresupuesto()">
+                    <option value="0">ELIJE UN PRODUCTO</option>
                     <option value="100">Entrenamiento desde casa(Aplicacion) - 100€</option>
                     <option value="200">Dieta Personalizada - 200€</option>
                     <option value="300">Entrenador personal - 300€</option>
@@ -53,7 +54,7 @@
                 
                 <label for="extra">Extras:</label>
                 <input type="checkbox" name="extra" id="extra" value="50" onchange="calcularPresupuesto()" ><p> Camiseta TRAINER ESPECIAL(+50€)</p>
-                <input type="checkbox" name="extra" id="extra" value="100" onchange="calcularPresupuesto()" > <p>Complementos TRAINER ESPECIAL + Camiseta (+100€)</p>
+                <input title="checkbox" type="checkbox" name="extra" class="extra" value="100" onchange="calcularPresupuesto()" > <p>Complementos TRAINER ESPECIAL + Camiseta (+100€)</p>
             </fieldset>
             
             <!-- Presupuesto final -->
@@ -84,13 +85,14 @@
         <p>Calle Pelayo 19, 33402</p>
         
         <div>
-            <img src="assets/png-clipart-facebook-logo-computer-icons-social-media-facebook-youtube-social-network-social-media-logo-internet-thumbnail-removebg-preview.png" alt=" logo facebook">
-            <img src="assets/87390-removebg-preview.png" alt=" logo instagram">
-            <img src="assets/2ba717ac010d3b9f8d26e9db4da291b8-removebg-preview.png" alt=" logo X ">
+            <a href="https://www.facebook.com/?locale=es_ES"><img src="/assets/png-clipart-facebook-logo-computer-icons-social-media-facebook-youtube-social-network-social-media-logo-internet-thumbnail-removebg-preview.png" alt=" logo facebook"></a>
+            <a href="https://www.instagram.com/"><img src="/assets/87390-removebg-preview.png" alt=" logo instagram"></a>
+            <a href="https://x.com/home?lang=es"><img src="/assets/2ba717ac010d3b9f8d26e9db4da291b8-removebg-preview.png" alt="logo X"></a>
         </div>
     </footer>
 
-    <script src="JS/scroll.js"></script>
-    <script src="JS/formulario.js"></script>
+    <script src="/JS/scroll.js"></script>
+    <script src="/JS/formulario.js"></script>
+    <script src="/JS/menu.js"></script>
 </body>
 </html>

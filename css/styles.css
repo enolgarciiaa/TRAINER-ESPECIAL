@@ -67,6 +67,12 @@ footer{
     color: black;
 }
 
+.menu a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
 
 /****************Clase creada en JS****************/
 #navbar.nav-scroll{
